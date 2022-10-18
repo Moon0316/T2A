@@ -5,7 +5,7 @@ Thanks to Shanghai Media Tech(SMT) for providing the data set and rendering serv
 
 ### Text-to Animation
 #### org
-<iframe, height=50, width=100, src=https://user-images.githubusercontent.com/86870625/196371327-c7a3d161-04fc-49be-ba80-cf55fc1b6101.mp4>
+https://user-images.githubusercontent.com/86870625/196371327-c7a3d161-04fc-49be-ba80-cf55fc1b6101.mp4
 
 #### TTS
 https://user-images.githubusercontent.com/86870625/196371512-43fa3e1c-3d8b-4fe5-b1ea-14094cb08ae6.mp4
