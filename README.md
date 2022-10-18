@@ -41,15 +41,15 @@ https://user-images.githubusercontent.com/86870625/196372230-e5b0b977-4c31-48df-
 #### soft-DTW
 https://user-images.githubusercontent.com/86870625/196372251-e1681d50-93e4-4fa4-b490-c15000aff5c7.mp4
 
-
-
 ## Pre-trained model and tools preparation
 ### Download pre-trained HuBERT model
 The pre-trained HuBERT model is obtained from [this repository](https://github.com/TencentGameMate/chinese_speech_pretrain).
 
 Please download Chinese HuBERT model and put it on directory ./data/pretrained_models/ by executing the following command:
 
-```wget -P ./data/pretrained_models/ https://huggingface.co/TencentGameMate/chinese-hubert-large/resolve/main/chinese-hubert-large-fairseq-ckpt.pt```
+```
+wget -P ./data/pretrained_models/ https://huggingface.co/TencentGameMate/chinese-hubert-large/resolve/main/chinese-hubert-large-fairseq-ckpt.pt
+```
 
 ### Download fairseq tool
 ```
@@ -61,10 +61,14 @@ pip install --editable ./
 
 ## Feature extraction
 ### Extract HuBERT feature
-```python utils/generate_hubert.py --input_dir ./data/wavs/[speaker name] --output_dir ./data/wav_features/[speaker name]```
+```
+python utils/generate_hubert.py --input_dir ./data/wavs/[speaker name] --output_dir ./data/wav_features/[speaker name]
+```
 
 ### Extract MFCC feature
-```python utils/generate_mfcc.py --input_dir ./data/wavs/[speaker name] --output_dir ./data/wav_features/[speaker name]```
+```
+python utils/generate_mfcc.py --input_dir ./data/wavs/[speaker name] --output_dir ./data/wav_features/[speaker name]
+```
 
 ## Train
 run ```bash train.sh``` to train
