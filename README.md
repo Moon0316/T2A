@@ -1,8 +1,9 @@
 # T2A: Robust Text-to-Animation
 ## Demos
 ### Acknowledgement
-Thanks to Shanghai Media Tech(SMT) for providing the data set and rendering service, the copyright of digital human presented in our demo is reserved by SMT.
-
+- Thanks to Shanghai Media Tech(SMT) for providing the data set and rendering service, the copyright of digital human presented in our demo is reserved by SMT.
+- We use pre-trained HuBERT model from [this repository](https://github.com/TencentGameMate/chinese_speech_pretrain).
+- We use implementation of soft-DTW loss from [this repository](https://github.com/keonlee9420/Soft-DTW-Loss).
 ### Text-to Animation
 #### org
 https://user-images.githubusercontent.com/86870625/196371327-c7a3d161-04fc-49be-ba80-cf55fc1b6101.mp4
