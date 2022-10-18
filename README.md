@@ -1,41 +1,41 @@
 # T2A: Robust Text-to-Animation
 ## Demos
 ### Text-to Animation
-**org**
+#### org
 https://user-images.githubusercontent.com/86870625/196371327-c7a3d161-04fc-49be-ba80-cf55fc1b6101.mp4
 
-**TTS**
+#### TTS
 https://user-images.githubusercontent.com/86870625/196371512-43fa3e1c-3d8b-4fe5-b1ea-14094cb08ae6.mp4
 
 
 
 ### TTS Data Augmentation
-**org**
+#### org
 https://user-images.githubusercontent.com/86870625/196371687-65b1fb82-290c-49ec-aea8-4e9362dbec2b.mp4
 
 
-**TTS Augmentation**
+#### TTS Augmentation
 https://user-images.githubusercontent.com/86870625/196371713-7196058c-bb25-40f0-8d69-ad77a43e0557.mp4
 
 
 ### Different Features
-**MFCC**
+#### MFCC
 https://user-images.githubusercontent.com/86870625/196371842-d23e569e-21f0-4c17-87fe-8411e7dd251f.mp4
 
-**PPGs**
+#### PPGs
 https://user-images.githubusercontent.com/86870625/196371895-e008d60a-29d9-4bcc-a3d0-a5ccd49d468a.mp4
 
-**HuBERT**
+#### HuBERT
 https://user-images.githubusercontent.com/86870625/196371957-c9b6b78a-c312-4991-87ad-137d9b1ee515.mp4
 
 ### Different Loss Functions
-**L1**
+#### L1
 https://user-images.githubusercontent.com/86870625/196372191-976bc74c-803b-402c-8d2e-349f874fffa4.mp4
 
-**L2**
+#### L2
 https://user-images.githubusercontent.com/86870625/196372230-e5b0b977-4c31-48df-82ce-200deb197c68.mp4
 
-**soft-DTW**
+#### soft-DTW
 https://user-images.githubusercontent.com/86870625/196372251-e1681d50-93e4-4fa4-b490-c15000aff5c7.mp4
 
 
