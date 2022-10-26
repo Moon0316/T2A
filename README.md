@@ -80,7 +80,7 @@ run ```bash train.sh``` to train
 - test_input_path: you should explicitly assign path of test_input_path if output_path != "result", test_input_path is the dir of csv files
 - test_epoch: do not need to explicitly assign, will find the model with best 
 - root_dir: dir of dataset root
-- feature_dir: hubert_large | wav2vec2_large | mfcc | ppg
+- feature_dir: hubert_large | mfcc | ppg
 - train_speaker_list: assign several speaker names for training
 - train_json: used to change data resource, path of json file which includes list of audio name in training set
 - freq: 50 if feature is chinese_hubert_large or ppg , 100 if feature is mfcc
