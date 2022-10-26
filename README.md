@@ -10,24 +10,35 @@
 
 ## Demos
 ### Text-to Animation
+
 https://user-images.githubusercontent.com/86870625/197924168-97cb77a3-1284-4600-bd7f-9f79f2c222d5.mp4
+
 https://user-images.githubusercontent.com/86870625/197924125-81f3f617-d850-4a3a-8c1a-cd2bbd16d8df.mp4
+
 https://user-images.githubusercontent.com/86870625/197924196-0ade4a9d-0f36-4199-a7e1-7399215769e6.mp4
+
 https://user-images.githubusercontent.com/86870625/197924206-6b5f3b07-89c0-4d08-b7a0-42590fc35587.mp4
 
 ### TTS Data Augmentation
+
 https://user-images.githubusercontent.com/86870625/197924341-88b59f7c-c70d-4fbc-b036-12632e3630dd.mp4
+
 https://user-images.githubusercontent.com/86870625/197924350-01db87eb-b645-4dd4-9c04-2d682730d961.mp4
+
 https://user-images.githubusercontent.com/86870625/197924359-11c29877-c9bd-4c4e-9317-d592f495f91a.mp4
+
 https://user-images.githubusercontent.com/86870625/197924364-4681af6a-a18a-4b9e-9fef-4b2eae43e334.mp4
 
 ### Different Audio Features
+
 https://user-images.githubusercontent.com/86870625/197924398-a76b977b-155e-47c9-9e59-179ffcc47970.mp4
 
 ### Different Loss Functions
+
 https://user-images.githubusercontent.com/86870625/197924415-b70030e8-0249-43e1-8c23-38ad4c2f318d.mp4
 
 ### Different Data Resources
+
 https://user-images.githubusercontent.com/86870625/197924456-d1c45314-df12-4ee5-957a-3a13f24d1bda.mp4
 
 ## Pre-trained model and tools preparation
