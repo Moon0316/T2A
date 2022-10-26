@@ -7,44 +7,28 @@
 - Thanks to Shanghai Media Tech(SMT) for providing the data set and rendering service.
 - We use pre-trained HuBERT model from [this repository](https://github.com/TencentGameMate/chinese_speech_pretrain).
 - We use implementation of soft-DTW loss from [this repository](https://github.com/keonlee9420/Soft-DTW-Loss).
+
 ## Demos
 ### Text-to Animation
-#### org
-https://user-images.githubusercontent.com/86870625/196371327-c7a3d161-04fc-49be-ba80-cf55fc1b6101.mp4
-
-#### TTS
-https://user-images.githubusercontent.com/86870625/196371512-43fa3e1c-3d8b-4fe5-b1ea-14094cb08ae6.mp4
-
-
+https://user-images.githubusercontent.com/86870625/197924168-97cb77a3-1284-4600-bd7f-9f79f2c222d5.mp4
+https://user-images.githubusercontent.com/86870625/197924125-81f3f617-d850-4a3a-8c1a-cd2bbd16d8df.mp4
+https://user-images.githubusercontent.com/86870625/197924196-0ade4a9d-0f36-4199-a7e1-7399215769e6.mp4
+https://user-images.githubusercontent.com/86870625/197924206-6b5f3b07-89c0-4d08-b7a0-42590fc35587.mp4
 
 ### TTS Data Augmentation
-#### org
-https://user-images.githubusercontent.com/86870625/196371687-65b1fb82-290c-49ec-aea8-4e9362dbec2b.mp4
+https://user-images.githubusercontent.com/86870625/197924341-88b59f7c-c70d-4fbc-b036-12632e3630dd.mp4
+https://user-images.githubusercontent.com/86870625/197924350-01db87eb-b645-4dd4-9c04-2d682730d961.mp4
+https://user-images.githubusercontent.com/86870625/197924359-11c29877-c9bd-4c4e-9317-d592f495f91a.mp4
+https://user-images.githubusercontent.com/86870625/197924364-4681af6a-a18a-4b9e-9fef-4b2eae43e334.mp4
 
-
-#### TTS Augmentation
-https://user-images.githubusercontent.com/86870625/196371713-7196058c-bb25-40f0-8d69-ad77a43e0557.mp4
-
-
-### Different Features
-#### MFCC
-https://user-images.githubusercontent.com/86870625/196371842-d23e569e-21f0-4c17-87fe-8411e7dd251f.mp4
-
-#### PPGs
-https://user-images.githubusercontent.com/86870625/196371895-e008d60a-29d9-4bcc-a3d0-a5ccd49d468a.mp4
-
-#### HuBERT
-https://user-images.githubusercontent.com/86870625/196371957-c9b6b78a-c312-4991-87ad-137d9b1ee515.mp4
+### Different Audio Features
+https://user-images.githubusercontent.com/86870625/197924398-a76b977b-155e-47c9-9e59-179ffcc47970.mp4
 
 ### Different Loss Functions
-#### L1
-https://user-images.githubusercontent.com/86870625/196372191-976bc74c-803b-402c-8d2e-349f874fffa4.mp4
+https://user-images.githubusercontent.com/86870625/197924415-b70030e8-0249-43e1-8c23-38ad4c2f318d.mp4
 
-#### L2
-https://user-images.githubusercontent.com/86870625/196372230-e5b0b977-4c31-48df-82ce-200deb197c68.mp4
-
-#### soft-DTW
-https://user-images.githubusercontent.com/86870625/196372251-e1681d50-93e4-4fa4-b490-c15000aff5c7.mp4
+### Different Data Resources
+https://user-images.githubusercontent.com/86870625/197924456-d1c45314-df12-4ee5-957a-3a13f24d1bda.mp4
 
 ## Pre-trained model and tools preparation
 ### Download pre-trained HuBERT model
