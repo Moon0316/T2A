@@ -86,8 +86,8 @@ run ```bash train.sh``` to train
 - freq: 50 if feature is chinese_hubert_large or ppg , 100 if feature is mfcc
 - input_dim: 39 for mfcc, 128 for ppg
 
-## Test
-run ```bash test.sh``` to test
-
 ## Validate
 run ```bash validate.sh``` to pick the best model by validating on validation set of certain speaker, change ```--val_speaker``` to decide speaker for validation.
+
+## Test
+run ```bash test.sh``` to test
