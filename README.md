@@ -1,4 +1,4 @@
-# T2A: Robust Text-to-Animation
+# Improving Few-shot Learning for Talking Face System with TTS Data Augmentation
 ## Statements
 - This repository is only used for academic research, any commercial use is prohibited.
 - The copyright of digital human presented in our demo is reserved by SMT.
@@ -9,16 +9,6 @@
 - We use implementation of soft-DTW loss from [this repository](https://github.com/keonlee9420/Soft-DTW-Loss).
 
 ## Demos
-### Text-to Animation
-
-https://user-images.githubusercontent.com/86870625/197924168-97cb77a3-1284-4600-bd7f-9f79f2c222d5.mp4
-
-https://user-images.githubusercontent.com/86870625/197924125-81f3f617-d850-4a3a-8c1a-cd2bbd16d8df.mp4
-
-https://user-images.githubusercontent.com/86870625/197924196-0ade4a9d-0f36-4199-a7e1-7399215769e6.mp4
-
-https://user-images.githubusercontent.com/86870625/197924206-6b5f3b07-89c0-4d08-b7a0-42590fc35587.mp4
-
 ### TTS Data Augmentation
 
 https://user-images.githubusercontent.com/86870625/197924341-88b59f7c-c70d-4fbc-b036-12632e3630dd.mp4
@@ -28,6 +18,16 @@ https://user-images.githubusercontent.com/86870625/197924350-01db87eb-b645-4dd4-
 https://user-images.githubusercontent.com/86870625/197924359-11c29877-c9bd-4c4e-9317-d592f495f91a.mp4
 
 https://user-images.githubusercontent.com/86870625/197924364-4681af6a-a18a-4b9e-9fef-4b2eae43e334.mp4
+
+### TTS-driven Talking Face
+
+https://user-images.githubusercontent.com/86870625/197924168-97cb77a3-1284-4600-bd7f-9f79f2c222d5.mp4
+
+https://user-images.githubusercontent.com/86870625/197924125-81f3f617-d850-4a3a-8c1a-cd2bbd16d8df.mp4
+
+https://user-images.githubusercontent.com/86870625/197924196-0ade4a9d-0f36-4199-a7e1-7399215769e6.mp4
+
+https://user-images.githubusercontent.com/86870625/197924206-6b5f3b07-89c0-4d08-b7a0-42590fc35587.mp4
 
 ### Different Audio Features
 
