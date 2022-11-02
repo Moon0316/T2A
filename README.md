@@ -61,7 +61,7 @@ pip install --editable ./
 ### Change return values of ```extract_features``` in fairseq
 We use the conbination of 24 layers HuBERT feature, however, the source code in fairseq only extracts the last layer output.
 
-So please change the return values ```extract_features``` function in ```fairseq/fairseq/models/hubert/hubert.py``` from ```return feature, res["padding_mask"]``` to ```return feature, res["padding_mask"], res["layer_results"]```, it is in the 543 line of ```hubert.py```.
+So please change the return values of ```extract_features``` function in ```fairseq/fairseq/models/hubert/hubert.py``` from ```return feature, res["padding_mask"]``` to ```return feature, res["padding_mask"], res["layer_results"]```, it is in the 543 line of ```hubert.py```.
 
 ## Feature extraction
 ### Extract HuBERT feature
