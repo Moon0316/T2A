@@ -16,8 +16,8 @@ def handle_wav(wav_path, saved_to_path):
     wav, sr = librosa.load(wav_path, sr=16000)
     input_values = python_speech_features.mfcc(signal=wav,samplerate=sr,numcep=13,winlen=0.025,winstep=0.01)
     d_mfcc_feat = python_speech_features.base.delta(input_values, 1)
-    d_mfcc_feat = python_speech_features.base.delta(input_values, 2)
-    input_values = np.hstack((input_values, d_mfcc_feat, d_mfcc_feat))
+    d_mfcc_feat2 = python_speech_features.base.delta(input_values, 2)
+    input_values = np.hstack((input_values, d_mfcc_feat, d_mfcc_feat2))
     input_values.dump(saved_to_path)
     print('saved to {}, shape={}'.format(saved_to_path,input_values.shape))
 
