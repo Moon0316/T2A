@@ -57,6 +57,8 @@ git clone git@github.com:facebookresearch/fairseq.git
 cd fairseq
 git checkout acd9a53
 pip install --editable ./
+cd ..
+cp hubert.py ./fairseq/fairseq/models/hubert/
 ```
 ### Change return values of ```extract_features``` in fairseq
 We use the conbination of 24 layers HuBERT feature, however, the source code in fairseq only extracts the last layer output.
