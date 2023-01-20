@@ -6,8 +6,9 @@ python main.py  --arch chinese_hubert_large \
                 --seed 0 \
                 --gamma 0.001 \
                 --root_dir ./data \
-                --train_blendshape_path ./data/wavs/org/train_37_original.pkl \
-                --val_blendshape_path ./data/wavs/org/val_1_37_original.pkl \
+                --train_blendshape_path ./data/wavs/org/train.pkl \
+                --val_blendshape_path ./data/wavs/org/val.pkl \
+                --train_json dataset_json/demo.json \
                 --num_workers 8 \
                 --gpu 0 \
                 --test_mode True \
