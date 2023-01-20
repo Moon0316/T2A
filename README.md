@@ -11,7 +11,7 @@
 ## Demos
 ### TTS Data Augmentation
 
-https://user-images.githubusercontent.com/86870625/197924341-88b59f7c-c70d-4fbc-b036-12632e3630dd.mp4
+https://user-images.githubusercontent.com/86870625/213614533-39d8d2e6-d1bc-45de-a1b7-e9ac6296bb55.mp4
 
 https://user-images.githubusercontent.com/86870625/197924350-01db87eb-b645-4dd4-9c04-2d682730d961.mp4
 
@@ -31,7 +31,7 @@ https://user-images.githubusercontent.com/86870625/197924206-6b5f3b07-89c0-4d08-
 
 ### Different Audio Features
 
-https://user-images.githubusercontent.com/86870625/197924398-a76b977b-155e-47c9-9e59-179ffcc47970.mp4
+https://user-images.githubusercontent.com/86870625/213614639-21115351-e2a6-4e17-bc96-b1816071423a.mp4
 
 ### Different Loss Functions
 
