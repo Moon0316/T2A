@@ -3,31 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch import nn
 
-class LSTM(nn.Module):
-    def __init__(self, input_size, hidden_size, num_layers, output_size, batch_size, bidirectional):
-        super().__init__()
-        self.input_size = input_size
-        self.hidden_size = hidden_size
-        self.num_layers = num_layers
-        self.output_size = output_size
-        self.bidirectional = bidirectional
-        self.num_directions = 2 if self.bidirectional else 1
-        self.batch_size = batch_size
-        self.lstm = nn.LSTM(self.input_size, self.hidden_size, self.num_layers, batch_first=True, bidirectional=self.bidirectional)
-        self.linear = nn.Linear(self.hidden_size, self.output_size)
-
-
-    def forward(self, input_seq, h, c):
-        # input_seq(batch_size, input_size)
-        batch_size = input_seq.shape[0]
-        input_seq = input_seq.view(batch_size, 1, self.input_size)
-        output, (h, c) = self.lstm(input_seq, (h, c))
-        # output(batch_size, seq_len, num * hidden_size)
-        pred = self.linear(output)  # pred(batch_size, 1, output_size)
-        pred = pred[:, -1, :]
-
-        return pred, h, c
-
 
 from fairseq.models.speech_to_text import Conv1dSubsampler
 class EncoderDecoderModel(nn.Module):
@@ -82,7 +57,7 @@ class EncoderDecoderModel(nn.Module):
         self.num_directions = 2 if self.bidirectional else 1
         self.hidden_size = 128
 
-        self.lstm = nn.LSTM(
+        self.rnn = getattr(nn, args.rnn_type)(
             input_size = args.feature_dim,
             hidden_size = self.hidden_size,
             num_layers=self.num_layers,
@@ -128,10 +103,11 @@ class EncoderDecoderModel(nn.Module):
         seq_len = hidden_states.shape[1]
         
         outputs = torch.zeros(batch_size, seq_len, 37).to(device=self.device)
-        h = torch.zeros(self.num_layers*self.num_directions, batch_size, self.hidden_size).to(device=self.device)
-        c = torch.zeros(self.num_layers*self.num_directions, batch_size, self.hidden_size).to(device=self.device)
+        # h = torch.zeros(self.num_layers*self.num_directions, batch_size, self.hidden_size).to(device=self.device)
+        # c = torch.zeros(self.num_layers*self.num_directions, batch_size, self.hidden_size).to(device=self.device)
 
-        outputs, (h, c) = self.lstm(hidden_states, (h, c))
+        # outputs, (h, c) = self.rnn(hidden_states, (h, c))
+        outputs, _ = self.rnn(hidden_states)
         outputs = self.final_proj(outputs)
 
         if blendshapes is None: # test mode
@@ -172,10 +148,11 @@ class EncoderDecoderModel(nn.Module):
    
         batch_size = 1
         outputs = torch.zeros(batch_size, seq_len, 37).to(device=self.device)
-        h = torch.zeros(self.num_layers*self.num_directions, batch_size, self.hidden_size).to(device=self.device)
-        c = torch.zeros(self.num_layers*self.num_directions, batch_size, self.hidden_size).to(device=self.device)
+        # h = torch.zeros(self.num_layers*self.num_directions, batch_size, self.hidden_size).to(device=self.device)
+        # c = torch.zeros(self.num_layers*self.num_directions, batch_size, self.hidden_size).to(device=self.device)
         
-        outputs, (h, c) = self.lstm(hidden_states, (h, c))
+        # outputs, (h, c) = self.rnn(hidden_states, (h, c))
+        outputs, _ = self.rnn(hidden_states)
         outputs = self.final_proj(outputs)
 
         return outputs

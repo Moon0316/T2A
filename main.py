@@ -64,6 +64,7 @@ parser.add_argument("--feature_dim", type=int, default=64, help='64 for vocaset;
 parser.add_argument("--cov_dim", type=int, default=128, help='dimension of the convolutional feature')
 parser.add_argument("--input_dim", type=int, default=39, help='dimension of the convolutional feature')
 parser.add_argument("--seed", type=int, default=0, help='seed for random')
+parser.add_argument("--rnn_type", type=str, default="LSTM", help='RNN cell type, RNN|LSTM|GRU')
 
 args = parser.parse_args()
 print(args)
@@ -291,7 +292,7 @@ def main(args):
 if __name__=="__main__":
     if args.use_wandb:
         config_dictionary = dict(yaml=args.config)
-        with wandb.init(project="Faceformer", config=config_dictionary, entity="aiwin4xlance"):
+        with wandb.init(project="T2A", config=config_dictionary):
             assert wandb.run is not None
             wandb.run.name = args.name
             main(args)

@@ -5,7 +5,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--predict_dir",type=str)
-parser.add_argument("--truth_dir",type=str,default='data_ssd/wavs/org/caocao_0912/audio2face_data_for_test_smg_10.7min')
+parser.add_argument("--truth_dir",type=str,default='data/wavs/org/caocao_0912/audio2face_data_for_test_smg_10.7min')
 args = parser.parse_args()
 
 import numpy as np

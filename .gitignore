@@ -5,13 +5,10 @@ result/
 tmp*
 validate/
 render*/
-fairseq/
+fairseq*
 
 # data processing
-data/wav_features/
-data/pretrained_models
-data/wavs
-data/*.zip
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
