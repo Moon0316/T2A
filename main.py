@@ -65,6 +65,10 @@ parser.add_argument("--cov_dim", type=int, default=128, help='dimension of the c
 parser.add_argument("--input_dim", type=int, default=39, help='dimension of the convolutional feature')
 parser.add_argument("--seed", type=int, default=0, help='seed for random')
 parser.add_argument("--rnn_type", type=str, default="LSTM", help='RNN cell type, RNN|LSTM|GRU')
+parser.add_argument("--transformer", action='store_true', help='whether to use transformer')
+parser.add_argument("--n_heads", type=int, default=4, help='number of heads in transformer')
+parser.add_argument("--hidden_size", type=int, default=128, help='hidden size of RNN/Transformer')
+parser.add_argument("--dim_feedforward", type=int, default=2048, help='feedforward size of Transformer')
 
 args = parser.parse_args()
 print(args)
