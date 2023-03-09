@@ -7,6 +7,9 @@
 - Thanks to Shanghai Media Tech(SMT) for providing the data set and rendering service.
 - We use pre-trained HuBERT model from [this repository](https://github.com/TencentGameMate/chinese_speech_pretrain).
 - We use implementation of soft-DTW loss from [this repository](https://github.com/keonlee9420/Soft-DTW-Loss).
+- We use implementation of Transformer from [this repository](https://github.com/Xflick/EEND_PyTorch)
+
+Thanks to the authors of above repositories.
 
 ## Demos
 ### TTS Data Augmentation
