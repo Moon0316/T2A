@@ -96,3 +96,15 @@ run ```bash validate.sh``` to pick the best model by validating on validation se
 
 ## Test
 run ```bash test.sh``` to test
+
+## Citation
+
+``` latex
+@misc{https://doi.org/10.48550/arxiv.2303.05322,
+  title = {Improving Few-Shot Learning for Talking Face System with TTS Data Augmentation},
+  author = {Chen, Qi and Ma, Ziyang and Liu, Tao and Tan, Xu and Lu, Qu and Chen, Xie and Yu, Kai},
+  journal={arXiv preprint arXiv:2211.07321},
+  year={2023},
+  url = {https://arxiv.org/abs/2303.05322}
+}
+```
