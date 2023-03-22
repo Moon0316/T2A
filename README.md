@@ -102,7 +102,7 @@ run ```bash test.sh``` to test
 ``` latex
 @article{chen2023improving,
   title={Improving Few-Shot Learning for Talking Face System with TTS Data Augmentation},
-  author={Chen, Qi and Ma, Ziyang and Liu, Tao and Tan, Xu and Lu, Qu and Chen, Xie and Yu, Kai},
+  author={Chen, Qi and Ma, Ziyang and Liu, Tao and Tan, Xu and Lu, Qu and Yu, Kai and Chen, Xie},
   booktitle={ICASSP 2022-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   year={2023}
 }
