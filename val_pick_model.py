@@ -26,7 +26,7 @@ parser.add_argument('--arch', type=str, default="chinese_hubert_large", help='na
 parser.add_argument('--gpu', default=0, type=int,help='GPU id to use.') 
 parser.add_argument("--num_workers", type=int, default=8)
 parser.add_argument("--val_batch_size", type=int, default=8)
-parser.add_argument("--loss_type", type=str, default="SoftDTW", help='L1 L2 CE SoftDTW Dilate')
+parser.add_argument("--loss_type", type=str, default="SoftDTW", help='L1 L2 CE SoftDTW')
 
 # args for using_soft_dtw
 parser.add_argument("--gamma", type=float, default=0.001)
