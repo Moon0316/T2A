@@ -39,7 +39,7 @@ parser.add_argument("--test_batch_size", type=int, default=1)
 parser.add_argument("--lr", type=float, default=0.001, help='learning rate')
 parser.add_argument("--gradient_accumulation_steps", type=int, default=1, help='gradient accumulation')
 parser.add_argument("--max_epoch", type=int, default=10, help='number of epochs')
-parser.add_argument("--loss_type", type=str, default="SoftDTW", help='L1 L2 CE SoftDTW Dilate')
+parser.add_argument("--loss_type", type=str, default="SoftDTW", help='L1 L2 CE SoftDTW')
 
 # args for using_soft_dtw
 parser.add_argument("--gamma", type=float, default=0.1)
